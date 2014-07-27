@@ -1,6 +1,7 @@
 {
   "packages": {
     "twit": {},
-    "npm": {}
+    "npm": {},
+    "voyager": {}
   }
 }

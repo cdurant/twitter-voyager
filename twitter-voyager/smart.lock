@@ -3,7 +3,8 @@
   "dependencies": {
     "basePackages": {
       "twit": {},
-      "npm": {}
+      "npm": {},
+      "voyager": {}
     },
     "packages": {
       "twit": {
@@ -15,6 +16,16 @@
         "git": "https://github.com/arunoda/meteor-npm.git",
         "tag": "v0.2.6",
         "commit": "177ab6118de5bf8cffb19481343d5762ff7a2aaf"
+      },
+      "voyager": {
+        "git": "https://github.com/hharnisc/meteor-voyager.git",
+        "tag": "v0.1.0",
+        "commit": "b2a2511b00cc0bbf547796211a79492e8269c0f3"
+      },
+      "server-stats": {
+        "git": "https://github.com/hharnisc/meteor-server-stats.git",
+        "tag": "v0.1.0",
+        "commit": "ec52b4d16e1a3737c4dd80260451afd1570fdacf"
       }
     }
   }

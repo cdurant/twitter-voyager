@@ -3,7 +3,12 @@
 </head>
 
 <body>
-	<div id="banner">A Meteor demonstration app made by <a href="http://www.github.com/cdurant">Colin DuRant </a></div>
+	<div id="banner">A Meteor demonstration app made by 
+		<a href="http://www.github.com/cdurant">Colin DuRant</a>, 
+		<a href="http://www.github.com/rosh93">Roshan Jobanputra</a>, and 
+		<a href="http://www.github.com/hharnisc">Harrison Harnisch</a>.
+	</div>
+	<div id="controlPanel">{{> controlPanel}}</div>
 	<h1 style="text-align:center;margin-top:2cm">Here's how many tweets are in the database:</h1>
 	<div id="count">{{> counter}}</div>
 	<h1 style="text-align:center;">Here, read a random tweet:</h1>
@@ -13,6 +18,15 @@
 
 <template name="counter">
   	{{count}}
+</template>
+
+<template name="controlPanel">
+	<table align="center">
+		<tr>
+			<td><button class="start-collecting" type="button">Start collecting!</button></td>
+			<td><button class="stop-collecting" type="button">Stop collecting!</button></td>
+		</tr>
+	</table>
 </template>
 
 <template name="tweetList">
