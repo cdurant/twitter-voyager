@@ -10,7 +10,7 @@ twit = new TwitMaker({
 });
 
 Meteor.startup(function () {
-	var stream = twit.stream('statuses/sample');	
+	var stream = twit.stream('statuses/sample', {'language': 'en'});	
 
 	stream.on('tweet', function(tweet) {
 		Fiber(function() {

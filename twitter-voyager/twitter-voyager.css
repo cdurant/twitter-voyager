@@ -35,3 +35,17 @@ body {
 
     font-size: 12pt;
 }
+
+#banner {
+	text-align: center;
+	background: #999999;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	font-weight: 400;
+	-moz-box-shadow:    0 2px 4px 0 rgba(0,0,0,0.50);
+	-webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+	box-shadow:         0 2px 4px 0 rgba(0,0,0,0.50);
+}
