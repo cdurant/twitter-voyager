@@ -10,7 +10,7 @@ twit = new TwitMaker({
 Meteor.startup(function() {
 	stream = undefined;
 	
-	voyager = new Voyager('voyagerjs.com', 'eb5ae6915390c578364ab299');
+	voyager = new Voyager('voyagerjs.com', 'ba1948e7c6a819c294c1db67');
 	
 	voyager.on('saveMe', function(eventId,eventData) {
 
@@ -23,7 +23,7 @@ Meteor.startup(function() {
 			Meteor.call('stopStream');
 
 			Meteor.call('removeAllTweets');
-		}
+		}							
 
 		voyager.eventCompleted(eventId);
 	})
