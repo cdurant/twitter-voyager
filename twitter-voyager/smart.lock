@@ -1,0 +1,21 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "twit": {},
+      "npm": {}
+    },
+    "packages": {
+      "twit": {
+        "git": "https://github.com/subhog/meteor-twit.git",
+        "tag": "v0.2.0",
+        "commit": "3eb473f9efef8c77ae6a8eb6715fbdf93c4d87c0"
+      },
+      "npm": {
+        "git": "https://github.com/arunoda/meteor-npm.git",
+        "tag": "v0.2.6",
+        "commit": "177ab6118de5bf8cffb19481343d5762ff7a2aaf"
+      }
+    }
+  }
+}

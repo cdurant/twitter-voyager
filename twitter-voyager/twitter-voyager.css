@@ -1,0 +1,37 @@
+/* CSS declarations go here */
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: 300;
+	background: #424242;
+	color: White;
+}
+
+#count {
+	text-align: center;
+	font-size: 128pt;
+}
+
+#tweet-displayer {
+	background: rgb(48, 48, 48);
+	width: 80%;
+	max-width: 500px;
+	margin: 15px auto;
+	padding: 20px;
+	text-align: left;
+
+	-moz-box-shadow:    0 2px 4px 0 rgba(0,0,0,0.50);
+	-webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+	box-shadow:         0 2px 4px 0 rgba(0,0,0,0.50);
+
+	*zoom: 1;
+    -webkit-transition: all 300ms 0ms;
+    -webkit-transition-delay: ease-in;
+    -moz-transition: all 300ms 0ms ease-in;
+    -o-transition: all 300ms 0ms ease-in;
+    transition: all 300ms 0ms ease-in;
+    position: relative;
+
+    font-size: 12pt;
+}
